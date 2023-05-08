@@ -1,0 +1,53 @@
+1.)Arithmetic operators:
+~
++ add
+- subtract
+* multiply
+/ divide
+% modulo (Division remainder)
+~
+2.)Relational operators
+~
+== equals (int x = 3; int y = 4; bool a = x == y;)(so a would be equal to false)
+!= not equals (int x = 3; int y = 4; bool a = x != y;)(so a would be equal to true)
+>  greater than
+>= greater than / equal to
+<  less than
+<= less than / equal to
+~
+2.5.)Relational operator usage
+~
+//so if x is the same as y then run the following code 
+if (x==y); {
+    print("x and y are equal");	
+}
+//we can create more conditionals
+else if (x > y) {
+    print("x is greater than y");
+}
+else {
+    print("x and y are not the same");
+}
+~
+3.)Logical operators
+~
+&& and
+|| or
+! not
+~
+3.5.)
+~
+bool a = true;
+bool b = false;
+//three non related functions utilizing initialized variables in this scope
+if (a && b){
+    print("both are true");
+}
+
+if (a || b){
+    print("either or both are true");
+}
+
+if (!a){
+    print("a is false");
+}

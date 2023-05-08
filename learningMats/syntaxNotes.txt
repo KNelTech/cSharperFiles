@@ -1,0 +1,39 @@
+Console.WriteLine(123);//int no punctuaion needed
+Console.WriteLine('b');//char single quotes
+Console.WriteLine("string");//string double quotes
+Console.WriteLine(3.14f);//floats up to 9 digits
+Console.WriteLine(123.123123123123);//doubles up to 17 digits
+Console.WriteLine(123.123123123123123123m);//decimal up to 29 digits
+Console.WriteLine(false);//bool
+Console.WriteLine(true);//bool
+
+//variables: declare data type then name, 
+//Variable names must begin with an alphabetical letter or an underscore, not a number.
+//Variable names are case-sensitive, **following five lines are variable typing
+//string firstName; 
+//char userOption;  
+//int gameScore;
+//decimal particlesPerMillion;
+//bool processedCustomer;
+
+bool processedCustomer;//declared boolean
+processedCustomer = true;//now its set to true
+Console.WriteLine(processedCustomer);//here we printed it
+
+string firstName;//declared string
+firstName = "DingleBerry"; //set it
+Console.WriteLine(firstName);//print
+
+firstName = "in";
+Console.WriteLine(firstName);
+
+firstName = "your mouth!";
+Console.WriteLine(firstName);
+
+string lastName = "and you love it dont cha?"; //here we declared the variable and value in the same line
+Console.WriteLine(lastName);
+
+var message = "the compiler assumed here";// var is a flexible compiler assumed variable type.
+
+//you can combine strings and variables in an output with the + operator
+Console.WriteLine(lastName + " your mama" + firstName);
